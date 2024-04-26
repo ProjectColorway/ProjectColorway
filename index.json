@@ -166,8 +166,7 @@
       "authorID": "582170007505731594",
       "isGradient": true,
       "colors": ["accent","primary","secondary"],
-      "degrees": "48.17deg",
-      "amounts": ["11.21%", "61.92%"]
+      "linearGradient": "48.17deg, hsl(37 calc(var(--saturation-factor, 1)*100%) 80%) 11.21%, hsl(204 calc(var(--saturation-factor, 1)*66%) 29%) 61.92%"
     },
     {
       "name": "Neon Candy",
@@ -181,8 +180,7 @@
       "authorID": "582170007505731594",
       "isGradient": true,
       "colors": ["accent","primary","secondary"],
-      "degrees": "90deg",
-      "amounts": ["0%", "100%"]
+      "linearGradient": "90deg, hsl(181, calc(var(--saturation-factor, 1)*100%), 44%) 0%, hsl(299, calc(var(--saturation-factor, 1)*100%), 50%) 100%"
     },
     {
       "name": "Wildberry",
