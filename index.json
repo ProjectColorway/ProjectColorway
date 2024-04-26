@@ -165,20 +165,24 @@
       "author": "DaBluLite",
       "authorID": "582170007505731594",
       "isGradient": true,
-      "colors": ["accent","primary","secondary"]
+      "colors": ["accent","primary","secondary"],
+      "degrees": "48.17deg",
+      "amounts": ["11.21%", "61.92%"]
     },
     {
       "name": "Neon Candy",
       "original": true,
       "accent": "#FC00FF",
       "primary": "#00DBDE",
-      "secondary": "#00DBDE",
-      "tertiary": "#00DBDE",
+      "secondary": "#FC00FF",
+      "tertiary": "#1e1f22",
       "dc-import": "@import url(//dablulite.github.io/DiscordColorways/NeonCandy/import.css);",
       "author": "DaBluLite",
       "authorID": "582170007505731594",
       "isGradient": true,
-      "colors": ["accent","primary"]
+      "colors": ["accent","primary","secondary"],
+      "degrees": "90deg",
+      "amounts": ["0%", "100%"]
     },
     {
       "name": "Wildberry",
