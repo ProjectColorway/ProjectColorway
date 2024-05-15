@@ -1,0 +1,22 @@
+{
+  "name": "project-colorway-api",
+  "displayName": "Project Colorway API",
+  "version": "1.0.0",
+  "description": "An api that is used for theming websites the easy way",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "webpack"
+  },
+  "keywords": [],
+  "author": "DaBluLite",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.77.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "webpack-cli": "^5.1.4"
+  }
+}

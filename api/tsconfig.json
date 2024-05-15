@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "noImplicitAny": true,
+      "module": "es6",
+      "target": "es2021",
+      "allowJs": true,
+      "moduleResolution": "node",
+      "baseUrl": "./src",
+      "paths": {
+        "@api/*": ["./api/*"]
+      }
+    },
+    "include": ["src/**/*"]
+}
