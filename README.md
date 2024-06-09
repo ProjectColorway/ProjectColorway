@@ -5,7 +5,7 @@ With the goal of making it easy to add theming functionality to any website, Pro
 ### Pure HTML/JS:
 * Add this to your HTML header:
 ```html
-<script type="application/javascript" src="https://raw.githubusercontent.com/DaBluLite/ProjectColorway/master/api/dist/index.js"></script>
+<script type="application/javascript" src="https://raw.githubusercontent.com/ProjectColorway/ProjectColorway/master/api/dist/index.js"></script>
 ```
 
 ## Using the API:
@@ -28,7 +28,7 @@ Dispatcher.onColorwayChanged(activeColorwayObject => {
 })
 ```
 
-You can learn more in the project [Wiki](https://github.com/DaBluLite/ProjectColorway/wiki)
+You can learn more in the project [Wiki](https://github.com/ProjectColorway/ProjectColorway/wiki)
 
 ## Projects using Colorways:
 [Github Desktop](https://github.com/DaBluLite/gh-desktop): An Electron-based desktop app for Github, writtend in JSX (Non-react) and TS\
