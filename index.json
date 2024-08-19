@@ -56,6 +56,17 @@
       "authorID": "582170007505731594"
     },
     {
+      "name": "Colorish",
+      "original": false,
+      "accent": "#ffffff",
+      "primary": "#090909",
+      "secondary": "#101010",
+      "tertiary": "#161616",
+      "dc-import": "@import url(\"https://dablulite.github.io/DiscordColorways/Colorish/import.css\");",
+      "author": "DaBluLite",
+      "authorID": "582170007505731594"
+    },
+    {
       "name": "Still Young",
       "original": true,
       "accent": "hsl(58 85.6% 89%)",
@@ -112,6 +123,17 @@
     },
     {
       "name": "AMOLED",
+      "original": true,
+      "accent": "hsl(235 85.6% 64.7%)",
+      "primary": "#090909",
+      "secondary": "#000000",
+      "tertiary": "#000000",
+      "dc-import": "@import url(https://dablulite.github.io/DiscordColorways/Amoled/import.css);",
+      "author": "DaBluLite",
+      "authorID": "582170007505731594"
+    },
+    {
+      "name": "Discord AMOLED",
       "original": true,
       "accent": "hsl(235 85.6% 64.7%)",
       "primary": "#000000",
