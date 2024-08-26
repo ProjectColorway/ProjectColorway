@@ -1,7 +1,7 @@
 {
   "colorways": [
     {
-      "name": "Keyboard Purple",
+      "name": "Discord Keys",
       "original": false,
       "accent": "hsl(235 85.6% 64.7%)",
       "primary": "#222456",
@@ -124,7 +124,7 @@
     {
       "name": "AMOLED",
       "original": true,
-      "accent": "hsl(235 85.6% 64.7%)",
+      "accent": "#FFFFFF",
       "primary": "#090909",
       "secondary": "#000000",
       "tertiary": "#000000",
@@ -314,6 +314,16 @@
       "dc-import": "@import url(https://dablulite.github.io/DiscordColorways/PyonMidnight/import.css);",
       "author": "cbani",
       "authorID": "650805815623680030"
+    },
+    {
+      "name": "Svelte",
+      "original": false,
+      "accent": "#ff3e00",
+      "primary": "#1a1a1a",
+      "secondary": "#242424",
+      "tertiary": "#2e2e2e",
+      "author": "DaBluLite",
+      "authorID": "582170007505731594"
     }
   ]
 }
