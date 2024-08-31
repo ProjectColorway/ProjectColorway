@@ -125,7 +125,7 @@
       "name": "AMOLED",
       "original": true,
       "accent": "#FFFFFF",
-      "primary": "#090909",
+      "primary": "#000000",
       "secondary": "#000000",
       "tertiary": "#000000",
       "dc-import": "@import url(https://dablulite.github.io/DiscordColorways/Amoled/import.css);",
@@ -155,7 +155,7 @@
       "authorID": "582170007505731594"
     },
     {
-      "name": "Desaturated",
+      "name": "Discord Desaturated",
       "original": false,
       "accent": "hsl(227, 58%, 65%)",
       "primary": "#35383d",
@@ -322,6 +322,16 @@
       "primary": "#1a1a1a",
       "secondary": "#242424",
       "tertiary": "#2e2e2e",
+      "author": "DaBluLite",
+      "authorID": "582170007505731594"
+    },
+    {
+      "name": "Github",
+      "original": false,
+      "accent": "#4493f8",
+      "primary": "#0d1117",
+      "secondary": "#070a0f",
+      "tertiary": "#010409",
       "author": "DaBluLite",
       "authorID": "582170007505731594"
     }
