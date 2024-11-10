@@ -314,6 +314,16 @@
       "dc-import": "@import url(https://dablulite.github.io/DiscordColorways/PyonMidnight/import.css);",
       "author": "cbani",
       "authorID": "650805815623680030"
+    },
+    {
+      "name": "Vicious",
+      "accent": "#e87393",
+      "primary": "#1e2022",
+      "secondary": "#2b2d31",
+      "tertiary": "#313338",
+      "author": "dablulite",
+      "authorID": "582170007505731594",
+      "CSSVersion": "1.23"
     }
   ]
 }
