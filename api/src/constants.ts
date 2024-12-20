@@ -1,4 +1,10 @@
-export const defaultColorwaySource = "https://raw.githubusercontent.com/DaBluLite/ProjectColorway/master/index.json";
+/*
+ * Vencord, a Discord client mod
+ * Copyright (c) 2023 Vendicated and contributors
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+
+export const defaultColorwaySource = "https://raw.githubusercontent.com/ProjectColorway/ProjectColorway/master/index.json";
 
 export const fallbackColorways = [
     {
@@ -260,3 +266,102 @@ export const fallbackColorways = [
         authorID: "582170007505731594",
     },
 ];
+
+
+export const knownThemeVars = {
+    "Cyan": {
+        variable: "--cyan-accent-color",
+        accent: "--cyan-accent-color",
+        primary: "--cyan-background-primary",
+        secondary: "--cyan-background-secondary"
+    },
+    "Virtual Boy": {
+        variable: "--VBaccent",
+        tertiary: "--VBaccent-muted",
+        alt: {
+            tertiary: "--VBaccent-dimmest"
+        }
+    },
+    "Modular": {
+        variable: "--modular-hue",
+        accentVariables: {
+            h: "--modular-hue",
+            s: "--modular-saturation",
+            l: "--modular-lightness"
+        }
+    },
+    "Solana": {
+        variable: "--accent-hue",
+        accentVariables: {
+            h: "--accent-hue",
+            s: "--accent-saturation",
+            l: "--accent-brightness"
+        },
+        primaryVariables: {
+            h: "--background-accent-hue",
+            s: "--background-accent-saturation",
+            l: "--background-accent-brightness"
+        }
+    }
+};
+
+export const mainColors = [
+    { name: "accent", title: "Accent", var: "--brand-500" },
+    { name: "primary", title: "Primary", var: "--background-primary" },
+    { name: "secondary", title: "Secondary", var: "--background-secondary" },
+    { name: "tertiary", title: "Tertiary", var: "--background-tertiary" }
+];
+
+export const nullColorwayObj: ColorwayObject = { id: null, sourceType: null, source: null, colors: { accent: "", primary: "", secondary: "", tertiary: "" } };
+
+export const nullPresetObj: PresetObject = { id: null, sourceType: null, source: null, conditions: [], css: null };
+
+export const colorProps = [
+    {
+        name: "Accent",
+        id: "accent"
+    },
+    {
+        name: "Primary",
+        id: "primary"
+    },
+    {
+        name: "Secondary",
+        id: "secondary"
+    },
+    {
+        name: "Tertiary",
+        id: "tertiary"
+    }
+];
+
+export const colorPickerProps = {
+    suggestedColors: [
+        "#313338",
+        "#2b2d31",
+        "#1e1f22",
+        "#5865f2",
+    ],
+    showEyeDropper: true
+};
+
+export const themes = [
+    {
+        name: "Discord (Default)",
+        id: "discord",
+        preview: "#313338"
+    },
+    {
+        name: "Colorish",
+        id: "colorish",
+        preview: "#000000"
+    },
+    {
+        name: "Discord (Visual Refresh)",
+        id: "discord-vr",
+        preview: "#26262a",
+        classes: ["visual-refresh"]
+    }
+];
+
+export const colorwayVarRegex = /@colorwayVar [a-z-]* (colorway\((accent|primary|secondary|tertiary)(|-(h|s|l))\)|\{\{(accent|primary|secondary|tertiary)(|-(h|s|l))\}\}|.)+/g;

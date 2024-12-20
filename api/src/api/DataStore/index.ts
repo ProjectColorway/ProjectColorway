@@ -1,5 +1,3 @@
-/* eslint-disable simple-header/header */
-
 /*!
  * idb-keyval v6.2.0
  * Copyright 2016, Jake Archibald
@@ -49,7 +47,7 @@ let defaultGetStoreFunc: UseStore | undefined;
 
 function defaultGetStore() {
     if (!defaultGetStoreFunc) {
-        defaultGetStoreFunc = createStore("VencordData", "VencordStore");
+        defaultGetStoreFunc = createStore("ColorwaysData", "ColorwaysStore");
     }
     return defaultGetStoreFunc;
 }

@@ -12,20 +12,54 @@ With the goal of making it easy to add theming functionality to any website, Pro
 ### Pure HTML/JS:
 * Start by defining the different parts of the API inside your js file, exposed inside the `window` object:
 ```js
-const { Dispatcher, DataStore, Styles, Colorways } = window.PCAPI;
+const PCAPI, { Dispatcher, DataStore, Styles, HTMLColorwayElement, start: startPCAPI, stop: stopPCAPI, Hooks } = new window.PCAPI("MyAppName");
 ```
-* Start the API. Add this to the bottom of your `body` tag:
-```html
-<script>
-    window.PCAPI.start();
-</script>
-```
-* Set up listeners for changes on the active colorway:
+* Start the API:
 ```js
-const { Dispatcher } = window.PCAPI;
-Dispatcher.onColorwayChanged(activeColorwayObject => {
-    console.log(activeColorwayObject) // example of return value: => { id: "hi", css: "", sourceType: "offline", source: "" }
-})
+startPCAPI();
+```
+* Listen for data changes on the API:
+    * Using `Hooks`
+```js
+const { Hooks } = new window.PCAPI("");
+
+// Manage a single context
+function getColorwayObj() {
+    const [activeColorwayObject, setActiveColorwayObject destroyActiveColorwayObject] = Hooks.simpleContext("activeColorwayObject");
+
+    console.log(activeColorwayObject()) // => { id: null... }
+
+    setActiveColorwayObject({ id: "new colorway"... })
+
+    console.log(activeColorwayObject()) // => { id: "new colorway"... }
+
+    return destroyActiveColorwayObject();
+}
+
+// Or the entire contexts object
+function updateAll() {
+    const [contexts, destroyContexts] = Hooks.simpleContexts();
+
+    myContexts = contexts();
+
+    return destroyContexts();
+}
+```
+
+* Cleanup:
+```js
+stopPCAPI();
+```
+
+* Manage CSS styles:
+```js
+const { Styles } = new window.PCAPI("");
+
+// Adding a style
+Styles.setStyle(id, css);
+
+// Removing said style
+Styles.removeStyle(id, css);
 ```
 
 You can learn more in the project [Wiki](https://github.com/ProjectColorway/ProjectColorway/wiki)
